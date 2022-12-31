@@ -13,9 +13,8 @@ public class CardService {
 
     @Autowired
     CardRepository cardRepository3;
-
     public Card createAndReturn(Student student){
-        Card card = null;
+        Card card = createAndReturn(student);
         //link student with a new card
         return card;
     }
